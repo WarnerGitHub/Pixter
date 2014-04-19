@@ -1,0 +1,15 @@
+<div class="private-square span6 offset2 text-center">
+
+  <h1>Upload your Scrub-Wrecking Images</h1>
+    
+    <br/>
+    
+  <%= simple_form_for @post do |f| %>
+  <%= f.input :title, label: 'What is this?', placeholder: 'eg. Smashes, Stomps, etc.' %>
+  <br/>
+  <%= f.input :description, label: 'What exactly are the circmstances of your wreckage?', placeholder: 'eg. Bronze V, Unranked, etc.' %>
+  <br/>
+  <%= f.button :submit, :class => 'btn btn-danger' %> 
+  <% end %>
+  
+</div> 
